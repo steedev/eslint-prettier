@@ -28,8 +28,8 @@ After running `eslint --init`, you'll want to setup a `package.json` file in you
 
 ```json
 "scripts": {
-    "lint": "./node_modules/.bin/eslint .",
-    "lint:fix": "./node_modules/.bin/eslint . --fix"
+  "lint": "./node_modules/.bin/eslint .",
+  "lint:fix": "./node_modules/.bin/eslint . --fix"
 },
 ```
 
@@ -37,8 +37,8 @@ or
 
 ```json
 "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+  "lint": "eslint .",
+  "lint:fix": "eslint . --fix"
 },
 ```
 
@@ -66,12 +66,12 @@ You can then set Prettier's own options inside a `.eslintrc.js` file:
 
 ```json
 {
-    "rules": {
-        "prettier/prettier": [
-          "error",
-          { "semi": false, "trailingComma": "all", "singleQuote": true },
-        ],
-    },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+        { "semi": false, "trailingComma": "all", "singleQuote": true },
+     ],
+   },
 }
 ```
 
