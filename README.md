@@ -66,9 +66,9 @@ You can then set Prettier's own options inside a `.eslintrc.js` file:
 
 ```json
 rules: {
-    'prettier/prettier': [
-      'error',
-      { semi: false, trailingComma: 'all', singleQuote: true },
+    "prettier/prettier": [
+      "error",
+      { "semi": false, "trailingComma": "all", "singleQuote": true },
     ],
 },
 ```
