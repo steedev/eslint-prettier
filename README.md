@@ -95,4 +95,10 @@ To setup your VSCode you can paste this code to your `settings.json` file:
 
 To setup ESLint copy these `js` files:
 
-<div style="display:flex"><img src="https://d33wubrfki0l68.cloudfront.net/204482ca413433c80cd14fe369e2181dd97a2a40/092e2/assets/img/logo.svg" style="width:30px; margin-right:5px"/>.eslintrc.js</div>
+* [`.eslintrc.js`](/configs/js/default/.eslintrc.js)
+* [`package.json`](/configs/js/default/package.json)
+
+To setup ESLint copy these `ts` files:
+
+* [`.eslintrc.js`](/configs/ts/default/.eslintrc.js)
+* [`package.json`](/configs/ts/default/package.json)
