@@ -1,4 +1,4 @@
-# Eslint & Prettier
+# ESlint & Prettier
 
 ![image](https://user-images.githubusercontent.com/71899777/121804013-0b9ee980-cc3c-11eb-86f6-3547fcfe0397.png)
 
@@ -40,4 +40,23 @@ or
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
 },
+```
+
+## Prettier
+
+You can install Prettier using npm:
+
+```
+npm install prettier eslint-config-prettier eslint-plugin-prettier --save-dev
+```
+
+Then, in your `.eslintrc.js`:
+
+```json
+{
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
 ```
