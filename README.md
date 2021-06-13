@@ -88,3 +88,5 @@ To setup your VSCode you can paste this code to your `settings.json` file:
   },
   "editor.formatOnSave": true,
 ```
+
+## TypeScript
