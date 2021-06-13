@@ -101,5 +101,5 @@ To setup ESLint copy these `js` files:
 To setup ESLint copy these `ts` files:
 
 * [`.eslintrc.js`](/configs/ts/default/.eslintrc.js)
-* [`tsconfig.json`](/configs/ts/default/tsconfig.json)
 * [`package.json`](/configs/ts/default/package.json)
+* [`tsconfig.json`](/configs/ts/default/tsconfig.json)
