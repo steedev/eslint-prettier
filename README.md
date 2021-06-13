@@ -65,12 +65,14 @@ Then, in your `.eslintrc.js`:
 You can then set Prettier's own options inside a `.eslintrc.js` file:
 
 ```json
-rules: {
-    "prettier/prettier": [
-      "error",
-      { "semi": false, "trailingComma": "all", "singleQuote": true },
-    ],
-},
+{
+    "rules": {
+        "prettier/prettier": [
+          "error",
+          { "semi": false, "trailingComma": "all", "singleQuote": true },
+        ],
+    },
+}
 ```
 
 ## ESLint & Prettier VSCode settings
