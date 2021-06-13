@@ -1,4 +1,4 @@
-# ESlint & Prettier
+# ESLint & Prettier
 
 ![image](https://user-images.githubusercontent.com/71899777/121804013-0b9ee980-cc3c-11eb-86f6-3547fcfe0397.png)
 
@@ -54,9 +54,37 @@ Then, in your `.eslintrc.js`:
 
 ```json
 {
+  "extends": ["plugin:prettier/recommended"],
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error"
   }
 }
+```
+
+You can then set Prettier's own options inside a `.eslintrc.js` file:
+
+```json
+rules: {
+    'prettier/prettier': [
+      'error',
+      { semi: false, trailingComma: 'all', singleQuote: true },
+    ],
+},
+```
+
+## ESLint & Prettier VSCode settings
+
+To setup your VSCode you can paste this code to your `settings.json` file:
+
+```json
+"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": ["javascript", "typescript", "html"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
 ```
