@@ -92,3 +92,7 @@ To setup your VSCode you can paste this code to your `settings.json` file:
 ```
 
 ## Configuration Files
+
+To setup ESLint copy these `js` files:
+
+[.eslintrc.js](/configs/js/default/.eslintrc.js)
