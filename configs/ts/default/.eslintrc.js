@@ -21,7 +21,6 @@ module.exports = {
     'no-console': 0,
     'no-shadow': 'off',
     'no-prototype-builtins': 'off',
-    '@typescript-eslint/no-inferrable-types': 'off',
     'prettier/prettier': [
       'error',
       { semi: false, trailingComma: 'all', singleQuote: true },
