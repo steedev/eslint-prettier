@@ -18,7 +18,7 @@ module.exports = {
     project: './tsconfig.json',
     createDefaultProgram: true,
   },
-  plugins: ['@typescript-eslint', 'prettier'],
+  plugins: ['@typescript-eslint', 'prettier', 'eslint-comments', 'promise'],
   rules: {
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'error',
