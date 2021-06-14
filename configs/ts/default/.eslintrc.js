@@ -21,6 +21,7 @@ module.exports = {
   plugins: ['@typescript-eslint', 'prettier', 'eslint-comments', 'promise'],
   rules: {
     'no-console': 0,
+    '@typescript-eslint/no-inferrable-types': 'off',
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'error',
     '@typescript-eslint/no-use-before-define': [
