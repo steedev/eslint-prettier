@@ -20,6 +20,7 @@ module.exports = {
   },
   plugins: ['@typescript-eslint', 'prettier', 'eslint-comments', 'promise'],
   rules: {
+    'no-console': 0,
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'error',
     '@typescript-eslint/no-use-before-define': [
