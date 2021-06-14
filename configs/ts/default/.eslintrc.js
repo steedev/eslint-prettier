@@ -21,14 +21,21 @@ module.exports = {
   plugins: ['@typescript-eslint', 'prettier', 'eslint-comments', 'promise'],
   rules: {
     'no-console': 0,
-    'no-unused-vars': 'off',
+    'no-shadow': 'off',
+    'no-prototype-builtins': 'off',
+    'import/no-default-export': 'error',
+    'import/prefer-default-export': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',
-    'import/prefer-default-export': 'off',
-    'import/no-default-export': 'error',
+    '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-use-before-define': [
       'error',
-      { functions: false, classes: true, variables: true, typedefs: true },
+      {
+        functions: false,
+        classes: true,
+        variables: true,
+        typedefs: true,
+      },
     ],
     'prettier/prettier': [
       'error',
