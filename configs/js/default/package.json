@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./*.{js,jsx}",
-    "lint:fix": "eslint ./*.{js,jsx} --fix"
+    "lint": "eslint ./**/*.{js,jsx}",
+    "lint:fix": "eslint ./**/*.{js,jsx} --fix"
   },
   "keywords": [],
   "author": "",
