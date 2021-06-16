@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "lint": "eslint ./*.{ts,tsx}",
-    "lint:fix": "eslint ./*.{ts,tsx} --fix"
+    "lint": "eslint ./**/*.{ts,tsx}",
+    "lint:fix": "eslint ./**/*.{ts,tsx} --fix"
   },
   "keywords": [],
   "author": "",
